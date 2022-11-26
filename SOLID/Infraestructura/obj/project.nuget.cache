@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ucDGeZsUBRR0ePWzkHG0nBGPEsAqrs8Z15GZTaxpJie1/s124moBE5IyVS1XCnqCW2UIx9pAMOdpmornCLWEdA==",
+  "success": true,
+  "projectFilePath": "C:\\VladoDotnetRepository\\SOLID\\Infraestructura\\Infraestructura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

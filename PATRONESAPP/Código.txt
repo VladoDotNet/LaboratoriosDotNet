@@ -1,0 +1,49 @@
+public abstract class AFactoryMethodPublicaciones
+    {
+        protected string _CantidadProducida;
+        protected string _NombreProducto;
+
+        public AFactoryMethodPublicaciones(string cantidad, string nombre)
+        {
+            _CantidadProducida = cantidad;
+            _NombreProducto = nombre;
+        }
+
+        public abstract string TipoPublicacion();
+    }
+
+    static async Task Main(string[] arg)
+        {
+            // FABRICA DE REVISTAS PARA IoT
+            IRevistasAcedemicas oRevista = new RevistasIoTFactory().CrearPublicacion();
+
+
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine(" PATRONES - Factory Method ");
+            Console.WriteLine("-------------------------------------");
+
+            char continuar = default;
+            do
+            {
+                Console.WriteLine("\n");
+                Console.WriteLine("FÁBRICA DE PUBLICACIONES");
+                Console.WriteLine("------------------------");
+
+                Console.Write("Solicitar producción de revistas\n" +
+                    "[1] Fabrica IoT,\n" +
+                    "[2] Lenguajes,\n" +
+                    "[3] Programación : ");
+                var fabrica = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("\n");
+
+
+                Console.Write("Desea continuar? Sí(s) / No(n)");
+                continuar = Console.ReadKey().KeyChar;
+                Console.Clear();
+
+                Console.WriteLine("---------------------------------------");
+                Console.WriteLine(" PATRONES - Factory Method ");
+                Console.WriteLine("---------------------------------------");
+
+            } while (continuar != 'n');
