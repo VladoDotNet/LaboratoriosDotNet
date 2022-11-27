@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VladoDotnetRepository\\PATRONESAPP\\PATRONESAPP.csproj": {}
+    "C:\\LaboratoriosDotNet\\PATRONESAPP\\PATRONESAPP.csproj": {}
   },
   "projects": {
-    "C:\\VladoDotnetRepository\\CORE\\CORE.csproj": {
+    "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj",
+        "projectPath": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\VladoDotnetRepository\\CORE\\obj\\",
+        "outputPath": "C:\\LaboratoriosDotNet\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\VladoDotnetRepository\\PATRONESAPP\\PATRONESAPP.csproj": {
+    "C:\\LaboratoriosDotNet\\PATRONESAPP\\PATRONESAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VladoDotnetRepository\\PATRONESAPP\\PATRONESAPP.csproj",
+        "projectUniqueName": "C:\\LaboratoriosDotNet\\PATRONESAPP\\PATRONESAPP.csproj",
         "projectName": "PATRONESAPP",
-        "projectPath": "C:\\VladoDotnetRepository\\PATRONESAPP\\PATRONESAPP.csproj",
+        "projectPath": "C:\\LaboratoriosDotNet\\PATRONESAPP\\PATRONESAPP.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\VladoDotnetRepository\\PATRONESAPP\\obj\\",
+        "outputPath": "C:\\LaboratoriosDotNet\\PATRONESAPP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\VladoDotnetRepository\\CORE\\CORE.csproj": {
-                "projectPath": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj"
+              "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj": {
+                "projectPath": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj"
               }
             }
           }

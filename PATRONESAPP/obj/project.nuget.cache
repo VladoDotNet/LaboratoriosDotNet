@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RRwTi8xI+uhLQoKvx/Y7QnntQTIsTO2nXxmG5WAv9YQ8r6uliK9efPD2EL5X3hFWtbjL8phjv7J5t1NTbdiYBA==",
+  "dgSpecHash": "hFPubjuoCMsKoObidDgy7zY5x+AYE3lPOqKboqXBJCWJvd6pRi2OSBDEG/HcFhGH7oXaw9GU6ahiflSLYR82NQ==",
   "success": true,
-  "projectFilePath": "C:\\VladoDotnetRepository\\PATRONESAPP\\PATRONESAPP.csproj",
+  "projectFilePath": "C:\\LaboratoriosDotNet\\PATRONESAPP\\PATRONESAPP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
