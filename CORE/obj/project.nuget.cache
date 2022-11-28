@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NUznYHRp4mOfatUgDsrwY72Qf5QyhqunwInP/qiL4fRRyp2lopdHYKu/+Rjwm0BpSeyMN+1bcHED/DNKcVhSvA==",
+  "dgSpecHash": "AnFixb28xEpwwFls4IhWXU0/XJuQVra3KSEae6wVfjMd0Z7f48admxVRmBDnKDnW6+dZPdbhZcKia0XQcBKOEQ==",
   "success": true,
-  "projectFilePath": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj",
+  "projectFilePath": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

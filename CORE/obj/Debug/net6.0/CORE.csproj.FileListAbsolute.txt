@@ -22,15 +22,3 @@ C:\VladoDotnetRepository\CORE\obj\Debug\net6.0\CORE.dll
 C:\VladoDotnetRepository\CORE\obj\Debug\net6.0\refint\CORE.dll
 C:\VladoDotnetRepository\CORE\obj\Debug\net6.0\CORE.pdb
 C:\VladoDotnetRepository\CORE\obj\Debug\net6.0\ref\CORE.dll
-C:\LaboratoriosDotNet\CORE\bin\Debug\net6.0\CORE.deps.json
-C:\LaboratoriosDotNet\CORE\bin\Debug\net6.0\CORE.dll
-C:\LaboratoriosDotNet\CORE\bin\Debug\net6.0\CORE.pdb
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\CORE.csproj.AssemblyReference.cache
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\CORE.GeneratedMSBuildEditorConfig.editorconfig
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\CORE.AssemblyInfoInputs.cache
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\CORE.AssemblyInfo.cs
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\CORE.csproj.CoreCompileInputs.cache
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\CORE.dll
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\refint\CORE.dll
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\CORE.pdb
-C:\LaboratoriosDotNet\CORE\obj\Debug\net6.0\ref\CORE.dll

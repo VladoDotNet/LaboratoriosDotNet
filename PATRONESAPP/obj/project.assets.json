@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LaboratoriosDotNet\\PATRONESAPP\\PATRONESAPP.csproj",
+      "projectUniqueName": "C:\\VladoDotnetRepository\\PATRONESAPP\\PATRONESAPP.csproj",
       "projectName": "PATRONESAPP",
-      "projectPath": "C:\\LaboratoriosDotNet\\PATRONESAPP\\PATRONESAPP.csproj",
+      "projectPath": "C:\\VladoDotnetRepository\\PATRONESAPP\\PATRONESAPP.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\LaboratoriosDotNet\\PATRONESAPP\\obj\\",
+      "outputPath": "C:\\VladoDotnetRepository\\PATRONESAPP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj": {
-              "projectPath": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj"
+            "C:\\VladoDotnetRepository\\CORE\\CORE.csproj": {
+              "projectPath": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj"
             }
           }
         }

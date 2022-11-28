@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj": {}
+    "C:\\VladoDotnetRepository\\CORE\\CORE.csproj": {}
   },
   "projects": {
-    "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj": {
+    "C:\\VladoDotnetRepository\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj",
+        "projectPath": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\LaboratoriosDotNet\\CORE\\obj\\",
+        "outputPath": "C:\\VladoDotnetRepository\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
