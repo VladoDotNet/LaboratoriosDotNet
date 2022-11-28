@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj",
+      "projectUniqueName": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj",
       "projectName": "CORE",
-      "projectPath": "C:\\VladoDotnetRepository\\CORE\\CORE.csproj",
+      "projectPath": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\VladoDotnetRepository\\CORE\\obj\\",
+      "outputPath": "C:\\LaboratoriosDotNet\\CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
