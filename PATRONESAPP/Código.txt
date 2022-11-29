@@ -14,26 +14,22 @@ public abstract class AFactoryMethodPublicaciones
 
     static async Task Main(string[] arg)
         {
-            // FABRICA DE REVISTAS PARA IoT
-            IRevistasAcedemicas oRevista = new RevistasIoTFactory().CrearPublicacion();
-
-
             Console.WriteLine("-------------------------------------");
-            Console.WriteLine(" PATRONES - Factory Method ");
+            Console.WriteLine(" PATRONES - xxxx ");
             Console.WriteLine("-------------------------------------");
 
             char continuar = default;
             do
             {
                 Console.WriteLine("\n");
-                Console.WriteLine("FÁBRICA DE PUBLICACIONES");
+                Console.WriteLine("XXXXX ");
                 Console.WriteLine("------------------------");
 
-                Console.Write("Solicitar producción de revistas\n" +
-                    "[1] Fabrica IoT,\n" +
-                    "[2] Lenguajes,\n" +
-                    "[3] Programación : ");
-                var fabrica = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Solicitar xxxxx\n" +
+                    "[1] xxxx,\n" +
+                    "[2] xxxx,\n" +
+                    "[3] xxxx : ");
+                var opcion = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("\n");
 
@@ -43,7 +39,7 @@ public abstract class AFactoryMethodPublicaciones
                 Console.Clear();
 
                 Console.WriteLine("---------------------------------------");
-                Console.WriteLine(" PATRONES - Factory Method ");
+                Console.WriteLine(" PATRONES - xxxxx ");
                 Console.WriteLine("---------------------------------------");
 
             } while (continuar != 'n');

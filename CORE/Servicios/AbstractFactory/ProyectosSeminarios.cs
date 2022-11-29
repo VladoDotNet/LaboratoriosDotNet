@@ -4,7 +4,7 @@ namespace Core.Servicios.AbstractFactory
 {
     public class ProyectosSeminarios : IPrySeminarios
     {
-        public string strNombre { get; set; }
+        public string? strNombre { get; set; }
 
         public ProyectosSeminarios(string modalidad)
         { }
