@@ -43,3 +43,4 @@ public abstract class AFactoryMethodPublicaciones
                 Console.WriteLine("---------------------------------------");
 
             } while (continuar != 'n');
+        }

@@ -52,3 +52,5 @@ C:\LaboratoriosDotNet\PATRONESAPP\obj\Debug\net6.0\refint\PATRONESAPP.dll
 C:\LaboratoriosDotNet\PATRONESAPP\obj\Debug\net6.0\PATRONESAPP.pdb
 C:\LaboratoriosDotNet\PATRONESAPP\obj\Debug\net6.0\PATRONESAPP.genruntimeconfig.cache
 C:\LaboratoriosDotNet\PATRONESAPP\obj\Debug\net6.0\ref\PATRONESAPP.dll
+C:\LaboratoriosDotNet\PATRONESAPP\bin\Debug\net6.0\Infraestructura.dll
+C:\LaboratoriosDotNet\PATRONESAPP\bin\Debug\net6.0\Infraestructura.pdb

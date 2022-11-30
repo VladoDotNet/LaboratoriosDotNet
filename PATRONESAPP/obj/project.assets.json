@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/CORE.dll": {}
         }
+      },
+      "Infraestructura/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CORE": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infraestructura.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infraestructura.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../CORE/CORE.csproj",
       "msbuildProject": "../CORE/CORE.csproj"
+    },
+    "Infraestructura/1.0.0": {
+      "type": "project",
+      "path": "../Context/Infraestructura.csproj",
+      "msbuildProject": "../Context/Infraestructura.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CORE >= 1.0.0"
+      "CORE >= 1.0.0",
+      "Infraestructura >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,6 +72,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\LaboratoriosDotNet\\Context\\Infraestructura.csproj": {
+              "projectPath": "C:\\LaboratoriosDotNet\\Context\\Infraestructura.csproj"
+            },
             "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj": {
               "projectPath": "C:\\LaboratoriosDotNet\\CORE\\CORE.csproj"
             }

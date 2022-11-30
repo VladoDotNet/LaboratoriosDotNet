@@ -1,0 +1,15 @@
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.csproj.AssemblyReference.cache
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.AssemblyInfoInputs.cache
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.AssemblyInfo.cs
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.csproj.CoreCompileInputs.cache
+C:\LaboratoriosDotNet\Context\bin\Debug\net6.0\Infraestructura.deps.json
+C:\LaboratoriosDotNet\Context\bin\Debug\net6.0\Infraestructura.dll
+C:\LaboratoriosDotNet\Context\bin\Debug\net6.0\Infraestructura.pdb
+C:\LaboratoriosDotNet\Context\bin\Debug\net6.0\CORE.dll
+C:\LaboratoriosDotNet\Context\bin\Debug\net6.0\CORE.pdb
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.csproj.CopyComplete
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.dll
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\refint\Infraestructura.dll
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\Infraestructura.pdb
+C:\LaboratoriosDotNet\Context\obj\Debug\net6.0\ref\Infraestructura.dll

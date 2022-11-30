@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "PATRONESAPP/1.0.0": {
         "dependencies": {
-          "CORE": "1.0.0"
+          "CORE": "1.0.0",
+          "Infraestructura": "1.0.0"
         },
         "runtime": {
           "PATRONESAPP.dll": {}
@@ -17,6 +18,14 @@
       "CORE/1.0.0": {
         "runtime": {
           "CORE.dll": {}
+        }
+      },
+      "Infraestructura/1.0.0": {
+        "dependencies": {
+          "CORE": "1.0.0"
+        },
+        "runtime": {
+          "Infraestructura.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infraestructura/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
