@@ -5,12 +5,10 @@ namespace CORE.Servicios.Decorator
     /// <summary>
     /// Llama el objeto envuelto y altera su resultado...
     /// </summary>
-    public class DecoradorConcretoB : ADecorator
+    public class DecoradorConcretoB : DecoratorBase
     {
-        public DecoradorConcretoB(AComponente aComponente) : base(aComponente)
-        {
-
-        }
+        public DecoradorConcretoB(Interfaces.Decorator.ComponenteBase aComponente) : base(aComponente)
+        { }
 
         public override string Operacion()
         {

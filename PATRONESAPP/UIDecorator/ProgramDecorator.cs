@@ -5,11 +5,11 @@
 //{
 //    internal class ProgramDecorator
 //    {
-//        static void Main(string[] arg)
+//        static async Task Main(string[] arg)
 //        {
-//            Console.WriteLine("-------------------------------------");
-//            Console.WriteLine(" PATRONES - Decorator Pattern ");
-//            Console.WriteLine("-------------------------------------");
+//            Console.WriteLine("----------------------------");
+//            Console.WriteLine(" PATRONES - Decorator  ");
+//            Console.WriteLine("----------------------------");
 
 //            //REQUEST CLIENTE...
 //            Cliente cliente = new Cliente();
@@ -31,7 +31,7 @@
 //                    "[3] CON CARACTERÍSTICAS A Y B,\n" +
 //                    "[4] CON TODAS LAS CARACTERÍSTICAS...\n" +
 //                    "Seleccione su decorado : ");
-                
+
 //                var decorado = Convert.ToInt32(Console.ReadLine());
 
 //                Console.WriteLine("\n");
@@ -41,19 +41,23 @@
 //                    case 1:
 //                        //var compBasico = new ComponenteBase();
 //                        Console.WriteLine("Solicitud de decorado BÁSICO...\n");
+//                        await Task.Delay(3000);
 //                        cliente.CodigoCliente(compBasico);
 //                        break;
 
 //                    case 2:
 //                        Console.WriteLine("Adicionar al decorado BÁSICO característica A...\n");
+//                        await Task.Delay(3000);
 //                        cliente.CodigoCliente(concretoA);
 //                        break;
 //                    case 3:
 //                        Console.WriteLine("Adicionar al decorado las características A y B...\n");
+//                        await Task.Delay(3000);
 //                        cliente.CodigoCliente(concretoB);
 //                        break;
 //                    case 4:
 //                        Console.WriteLine("Adicionar al decorado TODAS  las características...\n");
+//                        await Task.Delay(3000);
 //                        cliente.CodigoCliente(concretoC);
 //                        break;
 //                    default:
@@ -66,9 +70,9 @@
 //                continuar = Console.ReadKey().KeyChar;
 //                Console.Clear();
 
-//                Console.WriteLine("-------------------------------------");
-//                Console.WriteLine(" PATRONES - Decorator Pattern ");
-//                Console.WriteLine("-------------------------------------\n");
+//                Console.WriteLine("--------------------------------");
+//                Console.WriteLine(" PATRONES - Decorator  ");
+//                Console.WriteLine("------------------------------\n");
 
 //            } while (continuar != 'n');
 //        }

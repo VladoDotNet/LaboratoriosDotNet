@@ -7,8 +7,8 @@ namespace Infraestructura.Strategy
     /// </summary>
     public class GatewayContext
     {
-        private IGateway _gateway;
-        public GatewayContext(IGateway gateway)
+        private IGatewayBase _gateway;
+        public GatewayContext(IGatewayBase gateway)
         {
             _gateway = gateway;
         }
@@ -19,7 +19,7 @@ namespace Infraestructura.Strategy
             _gateway.setProveedorGateway(pasarela);
         }
 
-         public void SetStrategyPasarela(IGateway setGateway)
+         public void SetStrategyPasarela(IGatewayBase setGateway)
         {
             _gateway = setGateway;
         }

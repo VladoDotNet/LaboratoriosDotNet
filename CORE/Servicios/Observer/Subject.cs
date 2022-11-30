@@ -17,7 +17,7 @@ namespace CORE.Servicios.Observer
             EstadoDisponible=estadoDisponible;
         }
         
-        public string GetEstadoDisponible()
+        public string? GetEstadoDisponible()
         {
             return EstadoDisponible;
         }

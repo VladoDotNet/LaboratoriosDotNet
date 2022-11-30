@@ -12,18 +12,18 @@
 
 //            //Objeto tipo interface para pasar al
 //            // Adaptador el objeto tipo servicio incompatible...
-//            ITarget target = new Adapter(adapteeServicio);
+//            ITargetBase target = new Adapter(adapteeServicio);
 
-//            Console.WriteLine("-------------------------------------");
-//            Console.WriteLine(" PATRONES - Adapter Pattern ");
-//            Console.WriteLine("-------------------------------------");
+//            Console.WriteLine("-----------------------------");
+//            Console.WriteLine(" PATRONES - Adapter  ");
+//            Console.WriteLine("-----------------------------");
 
 //            char continuar = default;
 //            do
 //            {
 //                Console.WriteLine("\n");
 //                Console.WriteLine("SERVICIOS DE CONVERSIÓN DE FORMATOS");
-//                Console.WriteLine("-----------------------------------");
+//                Console.WriteLine("------------------------------------");
 
 //                Console.Write("Solicitar producción de revistas en formato:\n" +
 //                    "[1] XML,\n" +
@@ -33,9 +33,9 @@
 //                    "Seleccione un formato : ");
 //                var formato = Convert.ToInt32(Console.ReadLine());
 
-//               Console.WriteLine("\n");
+//                Console.WriteLine("\n");
 
-//                switch(formato)
+//                switch (formato)
 //                {
 //                    case 1:
 //                        Console.WriteLine("Solicitando servicio de formateo...");
@@ -55,14 +55,14 @@
 //                        await target.PrecesarFormatosEscuela("OTRO");
 //                        break;
 //                }
-                    
+
 //                Console.Write("Desea continuar? Sí(s) / No(n)");
 //                continuar = Console.ReadKey().KeyChar;
 //                Console.Clear();
 
-//                Console.WriteLine("---------------------------------------");
-//                Console.WriteLine(" PATRONES - Factory Method ");
-//                Console.WriteLine("---------------------------------------");
+//                Console.WriteLine("----------------------------");
+//                Console.WriteLine(" PATRONES - Adapter  ");
+//                Console.WriteLine("----------------------------");
 
 //            } while (continuar != 'n');
 //        }

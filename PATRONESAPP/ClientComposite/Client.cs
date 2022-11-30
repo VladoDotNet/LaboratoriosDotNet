@@ -2,8 +2,9 @@
 
 namespace PATRONESAPP.ClientComposite
 {
-    // The client code works with all of the components via the base
-    // interface.
+    // El código del cliente funciona con todos los componentes
+    // a través de la interface base
+   
     public class Client
     {
         public void ClientRequest(AComponent leaf)
@@ -11,8 +12,6 @@ namespace PATRONESAPP.ClientComposite
             Console.WriteLine($"RESULTADO : {leaf.Operaciones()}");
         }
 
-        // The client code works with all of the components via the base
-        // interface.
         public void ClienteRequestComp(AComponent aComponent1,
             AComponent aComponent2)
         {

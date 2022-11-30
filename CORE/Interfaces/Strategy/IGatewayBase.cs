@@ -1,6 +1,6 @@
 ﻿namespace CORE.Interfaces.Strategy
 {
-    public abstract class IGateway
+    public abstract class IGatewayBase
     {
         public abstract void setProveedorGateway(string pasarela);
         public abstract void getProveedor();

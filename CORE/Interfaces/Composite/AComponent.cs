@@ -1,22 +1,18 @@
 ﻿namespace CORE.Interfaces.Composite
 {
-    // The base Component class declares common operations for both simple and
-    // complex objects of a composition.
+    // La clase de Componente base declara operaciones comunes para
+    // objetos simples y complejos.
+
     public abstract class AComponent
     {
         public AComponent()
         { }
 
-        // The base Component may implement some default behavior or leave it to
-        // concrete classes (by declaring the method containing the behavior as
-        // "abstract").
-        public abstract string Operaciones();
+        // El Componente base puede implementar algún comportamiento
+        // por defecto o dejarlo a tal cual.
+        // las clases concretas declaran el método que contiene el comportamiento.
 
-        // In some cases, it would be beneficial to define the child-management
-        // operations right in the base Component class. This way, you won't
-        // need to expose any concrete component classes to the client code,
-        // even during the object tree assembly. The downside is that these
-        // methods will be empty for the leaf-level components.
+        public abstract string Operaciones();
 
         public virtual void Agregar(AComponent aComponent)
         {
@@ -28,8 +24,9 @@
             Console.WriteLine("Remover...");
         }
 
-        // You can provide a method that lets the client code figure out whether
-        // a component can bear children.
+        // Puede proporcionar un método que permita que
+        // el código del cliente descubra si
+        // un componente puede tener hijos.
         public virtual bool IsComposite()
         {
             return true;

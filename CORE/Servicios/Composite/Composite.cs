@@ -2,9 +2,11 @@
 
 namespace CORE.Servicios.Composite
 {
-    // The Composite class represents the complex components that may have
-    // children. Usually, the Composite objects delegate the actual work to
-    // their children and then "sum-up" the result.
+    // La clase Composite representa los componentes complejos que pueden tener
+    // hijos (hojas, Objetos Leaf).
+    // Por lo general, los objetos compuestos delegan el trabajo real a
+    // sus hijos y luego proceden a consolidar el resultado.
+
     public class Composite : IComponent
     {
         public string Nombre { get; set; }
@@ -27,11 +29,11 @@ namespace CORE.Servicios.Composite
             lstComponents.Remove(componente);
         }
 
-        // The Composite executes its primary logic in a particular way. It
-        // traverses recursively through all its children, collecting and
-        // summing their results. Since the composite's children pass these
-        // calls to their children and so forth, the whole object tree is
-        // traversed as a result.
+        // El Composite ejecuta su lógica primaria de una manera particular.
+        // Es un proceso recursivo a través de todos sus hijos,
+        // recopilando y agrupando sus resultados.
+        // Los hijos de un objeto compuesto llaman a sus hijos y así sucesivamente,
+        // todo el árbol de objetos representa el resultado final.
 
         public override int Costos()
         {

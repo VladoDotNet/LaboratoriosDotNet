@@ -1,26 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="PATRONESAPP.UIStrategy.UIStrategy">
-    <Position X="4" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>UIStrategy\UIStrategy.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="CORE.Interfaces.Strategy.IGateway">
-    <Position X="4" Y="0.75" Width="1.75" />
-    <TypeIdentifier />
-  </Class>
   <Class Name="CORE.Servicios.Strategy.GatewayDinners">
-    <Position X="6.5" Y="0.75" Width="2" />
+    <Position X="3.75" Y="3" Width="2" />
     <TypeIdentifier />
   </Class>
   <Class Name="CORE.Servicios.Strategy.GatewayVISA">
-    <Position X="1.25" Y="0.75" Width="2" />
+    <Position X="0.5" Y="3" Width="2" />
     <TypeIdentifier />
   </Class>
   <Class Name="Infraestructura.Strategy.GatewayContext">
-    <Position X="4" Y="2.75" Width="1.75" />
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CORE.Interfaces.Strategy.IGatewayBase">
+    <Position X="2" Y="0.5" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

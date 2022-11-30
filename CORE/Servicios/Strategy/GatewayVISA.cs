@@ -1,13 +1,8 @@
 ﻿using CORE.Interfaces.Strategy;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CORE.Servicios.Strategy
 {
-    public class GatewayVISA : IGateway
+    public class GatewayVISA : IGatewayBase
     {
         public string? GatewayActual { get; set; }
         public string? estadoGateway { get; set; } = "Disponible";

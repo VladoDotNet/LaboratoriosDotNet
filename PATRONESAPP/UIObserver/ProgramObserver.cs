@@ -2,7 +2,7 @@
 
 //namespace PATRONESAPP.UIObserver
 //{
-//    public class UIObserver
+//    public class ProgramObserver
 //    {
 //        static async Task Main(string[] arg)
 //        {
@@ -35,8 +35,8 @@
 //            Console.WriteLine();
 
 //            Console.WriteLine("ESTADO ACTUAL DEL RECURSO : ");
-//                recursoPublicacion.nRecurso(); 
-//                recursoPublicacion.GetEstadoDisponible();
+//            recursoPublicacion.nRecurso();
+//            recursoPublicacion.GetEstadoDisponible();
 //            await Task.Delay(2000);
 
 //            Console.WriteLine();

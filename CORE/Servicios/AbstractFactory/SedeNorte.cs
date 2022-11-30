@@ -2,7 +2,7 @@
 
 namespace Core.Servicios.AbstractFactory
 {
-    public class SedeNorte : AProyectoFactory
+    public class SedeNorte : BaseAbstractFactory
     {
         public override IPrySeminarios CrearProyectoSeminarios(string modalidad)
         {

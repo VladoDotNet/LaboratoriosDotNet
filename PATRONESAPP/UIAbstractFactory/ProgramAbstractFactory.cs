@@ -4,7 +4,7 @@
 //using Core.Servicios.AbstractFactory;
 //using PATRONES.ClientAbtractFactory;
 
-//public class ProgramAbstract
+//public class ProgramAbstractFactory
 //{
 //    static async Task Main(String[] arg)
 //    {

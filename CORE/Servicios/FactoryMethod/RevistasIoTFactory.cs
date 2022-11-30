@@ -3,7 +3,7 @@ using Core.Interfaces.FactoryMethod;
 
 namespace Core.Servicios.FactoryMethod
 {
-    public class RevistasIoTFactory : AFactoryMethodPublicaciones
+    public class RevistasIoTFactory : FactoryMethodBase
     {
         public override IRevistasAcedemicas CrearPublicacion()
         {

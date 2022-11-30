@@ -1,9 +1,4 @@
 ﻿using CORE.Interfaces.Decorator;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PATRONESAPP.ClientDecorator
 {
@@ -15,7 +10,7 @@ namespace PATRONESAPP.ClientDecorator
     /// </summary>
     public class Cliente
     {
-        public void CodigoCliente(AComponente aComponente)
+        public void CodigoCliente(ComponenteBase aComponente)
         {
             Console.WriteLine("DECORACIÓN FINAL --> " + aComponente.Operacion());
         }

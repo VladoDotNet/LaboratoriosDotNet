@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Core.Servicios.AbstractFactory
 {
-    public interface IInvestigacionIoT
-    {
-        string GetNombreRevista();
-    }
+    //public interface IInvestigacionIoT
+    //{
+    //    string GetNombreRevista();
+    //}
 }

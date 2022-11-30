@@ -2,11 +2,10 @@
 
 namespace CORE.Servicios.Composite
 {
-    // The Leaf class represents the end objects of a composition. A leaf can't
-    // have any children.
-    //
-    // Usually, it's the Leaf objects that do the actual work, whereas Composite
-    // objects only delegate to their sub-components.
+    // La clase Leaf representa los objetos finales de una composición.
+    //Una hoja no puede tener hijos.
+    // Por lo general, son los objetos Leaf los que hacen el trabajo real, mientras que 
+    //los objetos compuestos solo delegan en sus subcomponentes.
 
     public class Leaf : IComponent
     {

@@ -8,7 +8,7 @@ namespace PATRONES.ClientAbtractFactory
         private readonly IPryInvestigacion _pryInvestigacion;
         //private readonly IPrySocial _prySocial;
 
-        public Cliente(AProyectoFactory factory, string modalidad)
+        public Cliente(BaseAbstractFactory factory, string modalidad)
         {
             _prySeminarios = factory.CrearProyectoSeminarios(modalidad);
             _pryInvestigacion = factory.CrearProyectosInvestigacion(modalidad);

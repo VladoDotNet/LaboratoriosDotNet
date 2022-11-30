@@ -1,6 +1,5 @@
 ﻿//using CORE.Interfaces.Composite;
 //using CORE.Servicios.Composite;
-//using PATRONESAPP.ClientComposite;
 
 //namespace PATRONESAPP.UIComposite
 //{
@@ -66,16 +65,6 @@
 //                Console.WriteLine("------------------------------");
 
 //            } while (continuar != 'n');
-
-            
-
-
-            
-
-           
-
-
-
 //        }
 //    }
 //}

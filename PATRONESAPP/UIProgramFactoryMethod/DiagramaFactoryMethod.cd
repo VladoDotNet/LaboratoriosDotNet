@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.Interfaces.Factory_Method.FactoryMethodBase">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Core.Servicios.FactoryMethod.InvestigacionIoT">
+    <Position X="8" Y="2.25" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.Servicios.FactoryMethod.InvestigacionLenguajes">
+    <Position X="8" Y="5.75" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.Servicios.FactoryMethod.InvestigacionSoftware">
+    <Position X="8" Y="4" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.Servicios.FactoryMethod.RevistaIngenSoftwareFactory">
+    <Position X="0.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Core.Servicios.FactoryMethod.RevistaLenguajesFactory">
+    <Position X="3" Y="2.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Core.Servicios.FactoryMethod.RevistasIoTFactory">
+    <Position X="5.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PATRONESAPP.UIProgramFactoryMethod.ProgramFactoryMethod">
+    <Position X="4" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>UIProgramFactoryMethod\ProgramFactoryMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Core.Interfaces.FactoryMethod.IRevistasAcedemicas">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

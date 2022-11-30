@@ -2,7 +2,7 @@
 
 namespace CORE.Servicios.Strategy
 {
-    public class GatewayDinners : IGateway
+    public class GatewayDinners : IGatewayBase
     {
         public string? GatewayActual { get; set; }
         public string? estadoGateway { get; set; } = "Ocupada";

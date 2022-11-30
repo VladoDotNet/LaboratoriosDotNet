@@ -2,7 +2,7 @@
 
 namespace Core.Interfaces.Factory_Method
 {
-    public abstract class AFactoryMethodPublicaciones
+    public abstract class FactoryMethodBase
     {
         public abstract IRevistasAcedemicas CrearPublicacion();
 

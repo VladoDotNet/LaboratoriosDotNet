@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CORE.Interfaces.Decorator.ComponenteBase">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CORE.Interfaces.Decorator.DecoratorBase">
+    <Position X="5.75" Y="2.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CORE.Servicios.Decorator.ComponenteBase">
+    <Position X="0.75" Y="2.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CORE.Servicios.Decorator.ComponenteConcreto">
+    <Position X="3.25" Y="2.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CORE.Servicios.Decorator.DecoradorConcretoA">
+    <Position X="4" Y="5.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CORE.Servicios.Decorator.DecoradorConcretoB">
+    <Position X="6.5" Y="5.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CORE.Servicios.Decorator.DecoradorConcretoC">
+    <Position X="9" Y="5.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PATRONESAPP.ClientDecorator.Cliente">
+    <Position X="6.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientDecorator\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PATRONESAPP.UIDecorator.ProgramDecorator">
+    <Position X="9" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>UIDecorator\ProgramDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

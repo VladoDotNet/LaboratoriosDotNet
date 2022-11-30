@@ -1,21 +1,14 @@
 ﻿using CORE.Interfaces.Decorator;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CORE.Servicios.Decorator
 {
     /// <summary>
     /// Llama el objeto envuelto y altera su resultado...
     /// </summary>
-    public class DecoradorConcretoA : ADecorator
+    public class DecoradorConcretoA : DecoratorBase
     {
-        public DecoradorConcretoA(AComponente aComponente) : base(aComponente)
-        {
-
-        }
+        public DecoradorConcretoA(Interfaces.Decorator.ComponenteBase aComponente) : base(aComponente)
+        { }
 
         public override string Operacion()
         {

@@ -1,10 +1,5 @@
 ﻿//using CORE.Servicios.Strategy;
 //using Infraestructura.Strategy;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
 
 //namespace PATRONESAPP.UIStrategy
 //{
@@ -12,9 +7,9 @@
 //    {
 //        static async Task Main(string[] arg)
 //        {
-//            Console.WriteLine("-------------------------------------");
+//            Console.WriteLine("---------------------------");
 //            Console.WriteLine(" PATRONES - Strategy ");
-//            Console.WriteLine("-------------------------------------");
+//            Console.WriteLine("---------------------------");
 
 //            GatewayContext _ContextDinners = new GatewayContext(new GatewayDinners());
 //            GatewayContext _ContextVISA = new GatewayContext(new GatewayVISA());
@@ -75,9 +70,9 @@
 //                continuar = Console.ReadKey().KeyChar;
 //                Console.Clear();
 
-//                Console.WriteLine("---------------------------------------");
+//                Console.WriteLine("---------------------------");
 //                Console.WriteLine(" PATRONES - Strategy ");
-//                Console.WriteLine("---------------------------------------");
+//                Console.WriteLine("---------------------------");
 
 //            } while (continuar != 'n');
 //        }

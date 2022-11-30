@@ -1,13 +1,8 @@
 ﻿using CORE.Interfaces.Adapter;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CORE.Servicios.Adapter
 {
-    public class Adapter : ITarget
+    public class Adapter : ITargetBase
     {
         private readonly AdapteeServicio _adapatee;
 
