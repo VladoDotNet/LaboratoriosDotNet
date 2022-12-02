@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codigo", "Codigo", "{BAF812
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CORE", "..\CORE\CORE.csproj", "{1FFE9070-E320-44EF-9A20-C6209652BFB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura", "..\Context\Infraestructura.csproj", "{A419F1A6-6A53-4452-B3EF-2838EFE74025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructura", "..\Context\Infraestructura.csproj", "{A419F1A6-6A53-4452-B3EF-2838EFE74025}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,7 +12,7 @@ public abstract class AFactoryMethodPublicaciones
         public abstract string TipoPublicacion();
     }
 
-    static async Task Main(string[] arg)
+    static async Task Main(string[] args
         {
             Console.WriteLine("-------------------------------------");
             Console.WriteLine(" PATRONES - xxxx ");
