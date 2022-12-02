@@ -1,12 +1,9 @@
-﻿
-
-
-//using Core.Servicios.AbstractFactory;
+﻿//using Core.Servicios.AbstractFactory;
 //using PATRONES.ClientAbtractFactory;
 
 //public class ProgramAbstractFactory
 //{
-//    static async Task Main(String[] arg)
+//    static async Task Main(String[] args)
 //    {
 //        Cliente oSedeSur;
 //        Cliente oSedeNorte;
@@ -15,7 +12,7 @@
 //        Console.WriteLine(" PATRONES - Abstract Factory Pattern ");
 //        Console.WriteLine("-------------------------------------------");
 
-//        char continuar = default;
+//        char continuar;
 //        do
 //        {
 //            Console.WriteLine("\n");
@@ -30,7 +27,7 @@
 
 //            Console.WriteLine("\n");
 
-//            //FÁBRICAS DE PRODUCTOS : PROYECTOS
+//            //FÁBRICAS DE PRODUCTOS: PROYECTOS
 //            switch (sede)
 //            {
 //                case "Sur":
