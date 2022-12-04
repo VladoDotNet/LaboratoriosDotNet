@@ -24,7 +24,6 @@ namespace PATRONES.ClientAbtractFactory
             Console.WriteLine("CREANDO PROYECTO...\n");
             await Task.Delay(4000);
             return _prySeminarios.CrearProyecto(modalidad);
-
         }
 
         public async Task<string> CrearProyectosInvestigacion(string modalidad)

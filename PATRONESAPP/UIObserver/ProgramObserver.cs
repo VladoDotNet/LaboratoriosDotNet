@@ -2,6 +2,8 @@
 
 //namespace PATRONESAPP.UIObserver
 //{
+//    //Crea objetos de publicador y suscriptor por separado y,
+//    //a continuación, registra a los suscriptores para las actualizaciones del publicador.
 //    public class ProgramObserver
 //    {
 //        static async Task Main(string[] arg)
@@ -16,7 +18,7 @@
 
 //            //Simulación recursos...
 //            Console.WriteLine("PROCESANDO.... creando el recurso...\n");
-//            Subject recursoPublicacion = new Subject("Blazor desde cero!", 79.99, "Agotado");
+//            Subject recursoPublicacion = new Subject("Blazor desde cero! USD$",79.99," Agotado");
 //            await Task.Delay(3000);
 
 //            Console.WriteLine("RECURSOS.... recurso creado :");

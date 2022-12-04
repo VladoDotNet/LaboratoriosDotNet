@@ -2,6 +2,9 @@
 
 namespace CORE.Servicios.Observer
 {
+    //Contienen una infraestructura de suscripción (Lista)
+    //que permite que los nuevos suscriptores se unan
+    //y/o los suscriptores actuales abandonen la lista.
     public class Subject : ISubject
     {
         private List<IObserver> lstObservers = new List<IObserver>();
@@ -32,7 +35,7 @@ namespace CORE.Servicios.Observer
         public override void NotificarObservadores()
         {
             Console.WriteLine("NOTIFICACIÓN MASIVA... \n" +
-                NombreRecurso + "," + PrecioRecurso + "" + "se encuentra disponible!");
+                NombreRecurso + "," + PrecioRecurso + "" + " se encuentra disponible!");
 
             //Notificación a todos los OBSERVADORES registrados...
             Console.WriteLine();

@@ -2,23 +2,24 @@
 
 namespace CORE.Servicios.Adapter
 {
+    //Cliente objetivo.
+    //Sistema actual que presta el servicio.
+    //El cliente es una clase que contiene
+    //la lógica de negocios existente del programa.
     public class ProfesorPlanta : ITarget
     {
         public override void Cursos()
         {
             Console.WriteLine("PROCESANDO .... asignación de cursos profesor de PLANTA");
         }
-
         public override void Salones()
         {
             Console.WriteLine("PROCESANDO .... asignación de salones profesor de PLANTA");
         }
-
         public override void AgendaHorarios()
         {
             Console.WriteLine("PROCESANDO .... horarios del profesor de PLANTA");
         }
-
         public override void AtencionEstudiantes()
         {
             Console.WriteLine("PROCESANDO .... Atención a estudiantes del profesor de PLANTA");

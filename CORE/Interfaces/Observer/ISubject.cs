@@ -1,5 +1,10 @@
-﻿namespace CORE.Interfaces.Observer
+﻿using System;
+
+namespace CORE.Interfaces.Observer
 {
+    //Editor, Objeto observado, Contiene  mecanísmo de suscripción.
+    //Equivale a una lista con referencias al objeto observador suscriber.
+    //Sabe qué suscriptores están a la espera de notificaciones.
     public abstract class ISubject
     {
         public abstract void nRecurso();

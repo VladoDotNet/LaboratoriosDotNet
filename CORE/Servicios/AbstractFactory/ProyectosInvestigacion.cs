@@ -7,9 +7,7 @@ namespace Core.Servicios.AbstractFactory
         public ProyectosInvestigacion(string modalidad)
         {
         }
-
         public string? strNombre { get; set; }
-
         public string CrearProyecto(string modalidad)
         {
             if (modalidad == "Presencial")

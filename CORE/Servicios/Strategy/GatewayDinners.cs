@@ -1,7 +1,13 @@
 ﻿using CORE.Interfaces.Strategy;
+using System;
 
 namespace CORE.Servicios.Strategy
 {
+    //Variantes del algorítmo. Presta el servicio para cada tipo de estrategia
+    //con una clase especializada por cada uno de los tipos.
+    //Llama al método de ejecución en el objeto de estrategia concreta
+    //cada vez que necesita ejecutar el algoritmo.
+
     public class GatewayDinners : IGatewayBase
     {
         public string? GatewayActual { get; set; }

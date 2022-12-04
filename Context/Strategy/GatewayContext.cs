@@ -5,6 +5,9 @@ namespace Infraestructura.Strategy
     /// <summary>
     /// MIDDLWARE...
     /// </summary>
+    /// 
+    //Referencia las propiedades(métodos, get, set)
+    //que tienen la referencia al objeto estrategia.
     public class GatewayContext
     {
         private IGatewayBase _gateway;

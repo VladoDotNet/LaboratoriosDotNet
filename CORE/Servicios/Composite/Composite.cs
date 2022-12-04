@@ -2,8 +2,8 @@
 
 namespace CORE.Servicios.Composite
 {
-    // La clase Composite representa los componentes complejos que pueden tener
-    // hijos (hojas, Objetos Leaf).
+    //La clase Composite representa los componentes complejos que pueden tener
+    // hijos(hojas, Objetos Leaf).
     // Por lo general, los objetos compuestos delegan el trabajo real a
     // sus hijos y luego proceden a consolidar el resultado.
 
@@ -18,12 +18,10 @@ namespace CORE.Servicios.Composite
         }
 
         protected List<IComponent> lstComponents = new List<IComponent>();
-
         public virtual void Agregar(IComponent componente)
         {
             lstComponents.Add(componente);
         }
-
         public virtual void Remover(IComponent componente)
         {
             lstComponents.Remove(componente);
@@ -34,7 +32,6 @@ namespace CORE.Servicios.Composite
         // recopilando y agrupando sus resultados.
         // Los hijos de un objeto compuesto llaman a sus hijos y así sucesivamente,
         // todo el árbol de objetos representa el resultado final.
-
         public override int Costos()
         {
             Console.WriteLine($"Costos y Componentes  del curso : {Nombre} :\n");

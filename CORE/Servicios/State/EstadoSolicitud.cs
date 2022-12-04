@@ -1,14 +1,14 @@
 ﻿using CORE.Interfaces.State;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CORE.Servicios.State
 {
     public class EstadoSolicitud : EstadoBase
     {
+        //Los Estados concretos proporcionan sus propias implementaciones
+        //para los métodos específicos del Estado.
+        //Para evitar la duplicación de código similar en varios estados,
+        //puede proporcionar clases abstractas intermedias
+        //que encapsulen algún comportamiento común.
         public override void CambiarEstado(EstadoContext estadoContext)
         {
             //CAMBIO DE ESTADO AL SIGUIENTE PROCESO
