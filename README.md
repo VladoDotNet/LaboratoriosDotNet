@@ -9,9 +9,10 @@
      - Interfaces
      - Servicios
      
- 2. CAPA INFRAESTRUCTURE: GatewayContext --> Patrón Strategy
+ 2. CAPA INFRAESTRUCTURE: Tipo Biblioteca de Clases C#
+     - GatewayContext --> Patrón Strategy
  
- 3. CAPA PRESENTACIÓN (PATRONESAPP): 
+ 3. CAPA PRESENTACIÓN (PATRONESAPP): Tipo Biblioteca de Clases C#
      - CLIENTES : Folders
      - UI (Interface de usuario) : Proyectos tipo Console C#
      
