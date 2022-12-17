@@ -24,5 +24,10 @@ namespace CORE.Servicios.Adapter
         {
             Console.WriteLine("PROCESANDO .... Atención a estudiantes del profesor de PLANTA");
         }
+
+        public override void ServiciosVarios()
+        {
+            Console.WriteLine("PROCESANDO .... Servicios varios del profesor de PLANTA");
+        }
     }
 }

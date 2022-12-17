@@ -31,12 +31,15 @@
 
 //            Console.WriteLine("\n");
 
-//            Console.Write("INSERTANDO el ADAPTEE . . .\n");
+//            Console.Write("INSERTANDO el ADAPTEE (PROFESORES VIRTUALES) . . .\n");
 //            await Task.Delay(3000);
 //            adapterPVirtual.Cursos();
 //            adapterPVirtual.Salones();
 //            adapterPVirtual.AgendaHorarios();
 //            adapterPVirtual.AtencionEstudiantes();
+//            adapterPVirtual.ServiciosVarios();
+
+
 //        }
 //    }
 //}

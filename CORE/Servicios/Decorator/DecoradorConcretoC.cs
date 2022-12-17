@@ -7,7 +7,7 @@ namespace CORE.Servicios.Decorator
     /// </summary>
     public class DecoradorConcretoC : DecoratorBase
     {
-        public DecoradorConcretoC(Interfaces.Decorator.ComponenteBase aComponente) 
+        public DecoradorConcretoC(ComponenteBase aComponente) 
             : base(aComponente)
         { }
 

@@ -8,6 +8,7 @@
         public abstract void Salones();
         public abstract void AgendaHorarios();
         public abstract void AtencionEstudiantes();
+        public abstract void ServiciosVarios();
 
     }
 }

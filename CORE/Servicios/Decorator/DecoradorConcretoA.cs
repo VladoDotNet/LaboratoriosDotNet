@@ -7,7 +7,7 @@ namespace CORE.Servicios.Decorator
     //que se pueden agregar a los componentes dinámicamente. 
     public class DecoradorConcretoA : DecoratorBase
     {
-        public DecoradorConcretoA(Interfaces.Decorator.ComponenteBase aComponente) : base(aComponente)
+        public DecoradorConcretoA(ComponenteBase aComponente) : base(aComponente)
         { }
 
         public override string Operacion()

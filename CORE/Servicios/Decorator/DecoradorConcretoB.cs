@@ -7,7 +7,7 @@ namespace CORE.Servicios.Decorator
     /// </summary>
     public class DecoradorConcretoB : DecoratorBase
     {
-        public DecoradorConcretoB(Interfaces.Decorator.ComponenteBase aComponente) : base(aComponente)
+        public DecoradorConcretoB(ComponenteBase aComponente) : base(aComponente)
         { }
 
         public override string Operacion()
