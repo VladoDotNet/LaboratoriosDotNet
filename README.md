@@ -3,7 +3,7 @@
  PRÁCTICAS CON 10 PATRONES DE DISEÑO POPULARES
  ===============================================
  
- Los proyectos se componen de las siguintes capas:
+ Los proyectos se componen de las siguientes capas:
  
  1. CAPA CORE: Tipo Biblioteca de Clases C#
      - Interfaces
