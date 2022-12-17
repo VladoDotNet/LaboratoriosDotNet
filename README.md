@@ -17,7 +17,9 @@
      - UI (Interface de usuario) : Proyectos tipo Console C#
      
  4. SOPORTE TEÓRICO Y CASOS DE ESTUDIO
-     - En procesos de edición final, pronto aquí.
+    
+    https://vladodotnet.wordpress.com/2022/10/31/leccion-que-son-los-patrones-de-diseno/
+    
      
      CÉSAR.-
  
