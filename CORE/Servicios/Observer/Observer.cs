@@ -5,6 +5,8 @@ namespace CORE.Servicios.Observer
 {
     public class Observer : IObserver
     {
+        //SUSCRIBER
+
         //Los suscriptores concretos realizan algunas acciones
         //en respuesta a las notificaciones emitidas por el editor.
         //Todas estas clases deben implementar la misma interfaz

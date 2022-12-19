@@ -18,7 +18,7 @@
 
 //            //Simulación recursos...
 //            Console.WriteLine("PROCESANDO.... creando el recurso...\n");
-//            Subject recursoPublicacion = new Subject("Blazor desde cero! USD$",79.99," Agotado");
+//            Subject recursoPublicacion = new Subject("Blazor desde cero! USD$", 79.99, " Agotado");
 //            await Task.Delay(3000);
 
 //            Console.WriteLine("RECURSOS.... recurso creado :");

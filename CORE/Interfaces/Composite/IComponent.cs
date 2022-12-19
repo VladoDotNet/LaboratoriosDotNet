@@ -1,4 +1,6 @@
-﻿namespace CORE.Interfaces.Composite
+﻿using System.ComponentModel;
+
+namespace CORE.Interfaces.Composite
 {
     // La clase de Componente base declara operaciones
     // comunes para ambos componentes:
@@ -6,6 +8,8 @@
     // objetos complejos.
     public abstract class IComponent
     {
+        //La interfaz Component describe las operaciones que son comunes
+        //a los elementos simples y complejos del árbol.
         public IComponent()
         { }
 

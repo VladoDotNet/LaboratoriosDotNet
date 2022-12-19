@@ -2,6 +2,8 @@
 
 namespace CORE.Interfaces.Observer
 {
+    // PUBLISHER, SUBJECT
+    
     //Editor, Objeto observado, Contiene  mecanísmo de suscripción.
     //Equivale a una lista con referencias al objeto observador suscriber.
     //Sabe qué suscriptores están a la espera de notificaciones.

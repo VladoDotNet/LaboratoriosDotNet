@@ -1,6 +1,7 @@
 ﻿namespace CORE.Interfaces.Observer
 {
-    //    Suscriptores, usuarios.
+    //   SUSCRIPTOR, USUARIO
+
     //Con un método de notificación específico
     //que recibe la notificación del editor.
     //Pueden abandonar la lista del editor.
