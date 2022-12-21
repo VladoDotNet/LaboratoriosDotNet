@@ -39,7 +39,6 @@
 //                switch (decorado)
 //                {
 //                    case 1:
-//                        //var compBasico = new ComponenteBase();
 //                        Console.WriteLine("Solicitud de decorado BÁSICO...\n");
 //                        await Task.Delay(3000);
 //                        cliente.CodigoCliente(compBasico);

@@ -6,7 +6,7 @@ namespace CORE.Servicios.Adapter
     //una instancia de un tipo de requerimiento diferente;
     //instancia de Adaptee
 
-    public class AdapterPVirtual : ITarget
+    public class AdapterPVirtual : ITargetBase
     {
         //ASOCIACIÓN al Adaptee (el incompatible a adaptar)
 

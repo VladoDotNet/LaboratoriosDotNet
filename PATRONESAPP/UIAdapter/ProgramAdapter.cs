@@ -1,5 +1,4 @@
-﻿//using CORE.Interfaces.Adapter;
-//using CORE.Servicios.Adapter;
+﻿//using CORE.Servicios.Adapter;
 
 //namespace PATRONESAPP.UIAdapter
 //{
@@ -25,18 +24,25 @@
 
 //            ProfesorPlanta.Cursos();
 //            ProfesorPlanta.Salones();
+//            await Task.Delay(3000);
 //            ProfesorPlanta.AgendaHorarios();
+//            await Task.Delay(3000);
 //            ProfesorPlanta.AtencionEstudiantes();
 //            await Task.Delay(5000);
 
 //            Console.WriteLine("\n");
 
 //            Console.Write("INSERTANDO el ADAPTEE (PROFESORES VIRTUALES) . . .\n");
-//            await Task.Delay(3000);
+//            await Task.Delay(6000);
+
+//            Console.WriteLine("\n");
+
 //            adapterPVirtual.Cursos();
 //            adapterPVirtual.Salones();
+//            await Task.Delay(3000);
 //            adapterPVirtual.AgendaHorarios();
 //            adapterPVirtual.AtencionEstudiantes();
+//            await Task.Delay(3000);
 //            adapterPVirtual.ServiciosVarios();
 
 

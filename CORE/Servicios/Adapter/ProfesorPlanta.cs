@@ -2,11 +2,13 @@
 
 namespace CORE.Servicios.Adapter
 {
+    // OBJETOS ADAPTADOS DEL SISTEMA ACTUAL
+
     //Cliente objetivo.
     //Sistema actual que presta el servicio.
     //El cliente es una clase que contiene
     //la lógica de negocios existente del programa.
-    public class ProfesorPlanta : ITarget
+    public class ProfesorPlanta : ITargetBase
     {
         public override void Cursos()
         {

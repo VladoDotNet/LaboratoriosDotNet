@@ -2,8 +2,8 @@
 
 //namespace PATRONESAPP.UIObserver
 //{
-//    //Crea objetos de publicador y suscriptor por separado y,
-//    //a continuación, registra a los suscriptores para las actualizaciones del publicador.
+//    Crea objetos de publicador y suscriptor por separado y,
+//    a continuación, registra a los suscriptores para las actualizaciones del publicador.
 //    public class ProgramObserver
 //    {
 //        static async Task Main(string[] arg)
@@ -16,7 +16,7 @@
 //            Console.WriteLine("SERVICIO DE RECURSOS ");
 //            Console.WriteLine("----------------------\n");
 
-//            //Simulación recursos...
+//            Simulación recursos...
 //            Console.WriteLine("PROCESANDO.... creando el recurso...\n");
 //            Subject recursoPublicacion = new Subject("Blazor desde cero! USD$", 79.99, " Agotado");
 //            await Task.Delay(3000);
@@ -25,7 +25,7 @@
 //            recursoPublicacion.nRecurso();
 //            Console.WriteLine("");
 
-//            //Simulación para REGISTRO de suscriptores (Observadores, usuarios)
+//            Simulación para REGISTRO de suscriptores(Observadores, usuarios)
 //            Console.WriteLine("PROCESANDO.... registrando los suscripciones :\n");
 //            Observer observer1 = new Observer("Verónica", recursoPublicacion);
 //            await Task.Delay(2000);
@@ -43,7 +43,7 @@
 
 //            Console.WriteLine();
 
-//            //Simulacion de NOTIFICCIÓN MASIVA...
+//            Simulacion de NOTIFICCIÓN MASIVA...
 //            recursoPublicacion.setEstadoDisponible("Disponible!");
 //            await Task.Delay(3000);
 

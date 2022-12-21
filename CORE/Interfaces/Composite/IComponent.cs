@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace CORE.Interfaces.Composite
+﻿namespace CORE.Interfaces.Composite
 {
     // La clase de Componente base declara operaciones
     // comunes para ambos componentes:

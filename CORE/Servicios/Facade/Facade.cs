@@ -28,10 +28,10 @@
 
         // Los métodos de Facade son atajos convenientes para la compleja
         // funcionalidad de los subsistemas.
-        
+
         public string CargandoSubsistemas()
         {
-            string cargados="";
+            string cargados = "";
 
             cargados += _registroAcademico.RegistrarCandidatos();
             cargados += _registroAcademico.CargarDocumentacion();

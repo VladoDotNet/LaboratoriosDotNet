@@ -1,11 +1,13 @@
 ﻿namespace CORE.Interfaces.Adapter
 {
-    /// <summary>
-    /// Clase con método para implementar por el ADAPTER
-    /// El CLIENTE hace uso de este método para procesar el formato
-    /// </summary>
-    public interface ITargetBase
+    //La interfaz de cliente describe un protocolo que otras clases
+    //deben seguir para poder colaborar con el código de cliente.
+    public abstract class ITargetBase
     {
-        Task PrecesarFormatosEscuela (string formato);
+        public abstract void Cursos();
+        public abstract void Salones();
+        public abstract void AgendaHorarios();
+        public abstract void AtencionEstudiantes();
+        public abstract void ServiciosVarios();
     }
 }
