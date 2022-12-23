@@ -16,8 +16,8 @@
      - CLIENTES : Folders
      - UI (Interface de usuario) : Proyectos tipo Console C#
      
- 4. SOPORTE TEÓRICO Y CASOS DE ESTUDIO
-    
+ 4. PUBLICACIÓN CON SOPORTE TEÓRICO Y CASOS DE ESTUDIO:
+    Suscribirse aquí:     
     https://vladodotnet.wordpress.com/2022/10/31/leccion-que-son-los-patrones-de-diseno/
     
      
